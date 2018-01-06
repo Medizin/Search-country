@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="country-wrapper">
+        <form action="" id="form" class="flex-container">
+            <input autocomplete="off" type="text" id="country-input" placeholder="Start typing country name" >
+        </form>
+
+        <div class="loader-container none" id="country-loader-container">
+            <div class="loader"></div>
+        </div>
+        
+        <div class="country-text-container">
+            <h4 class="text">Empty List</h4>
+        </div>
+            
+        <div id="country-container">
+            <ul id="country-list" class="flex-container"></ul>
+        </div>
+    </div>
+
+    <div id="city-wrapper">
+        <form action="" id="form" class="flex-container">
+            <input autocomplete="off" type="text" id="city-input" placeholder="City" disabled>
+        </form>
+        
+        <div class="loader-container none" id="city-loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <div class="city-text-container">
+            <h4 class="text">Empty List</h4>
+        </div>
+
+        <div id="city-container">
+            <ul id="city-list" class="flex-container"></ul>
+        </div> 
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
